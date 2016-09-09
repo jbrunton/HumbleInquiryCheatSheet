@@ -1,0 +1,241 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{multicol}
+\usepackage{calc}
+\usepackage{ifthen}
+\usepackage[portrait]{geometry}
+\usepackage{amsmath,amsthm,amsfonts,amssymb}
+\usepackage{color,graphicx,overpic}
+\usepackage{hyperref}
+\usepackage{tabularx}
+
+\newenvironment{nosepitemize}
+{ \begin{itemize}
+    \setlength{\itemsep}{0pt}
+    \setlength{\parskip}{0pt}
+    \setlength{\parsep}{0pt}     }
+{ \end{itemize}                  }
+
+\newenvironment{nosepenumerate}
+{ \begin{enumerate}
+    \setlength{\itemsep}{0pt}
+    \setlength{\parskip}{0pt}
+    \setlength{\parsep}{0pt}     }
+{ \end{enumerate}                  }
+
+% Turn off header and footer
+\pagestyle{empty}
+
+% Don't print section numbers
+\setcounter{secnumdepth}{0}
+
+% This sets page margins to .5 inch if using letter paper, and to 1cm
+% if using A4 paper. (This probably isn't strictly necessary.)
+% If using another size paper, use default 1cm margins.
+\ifthenelse{\lengthtest { \paperwidth = 11in}}
+    { \geometry{top=.5in,left=.5in,right=.5in,bottom=.5in} }
+    {\ifthenelse{ \lengthtest{ \paperwidth = 297mm}}
+        {\geometry{top=1cm,left=1cm,right=1cm,bottom=1cm} }
+        {\geometry{top=1cm,left=1cm,right=1cm,bottom=1cm} }
+    }
+
+\begin{document}
+
+\begin{center}
+     \Large{{Helping Cheat Sheet}}
+\end{center}
+
+\begin{multicols}{2}
+
+\noindent
+\textbf{Humble inquiry} is a mode of inquiry that focuses on the communication process, which will enable both helper and client to figure out what is actually needed.
+
+\textbf{Process consultation} means that the helper focuses from the very beginning on the communication process. The goal is to equilibrate the status and to create a climate that will permit both client and helper to remove their ignorance. What this means behaviorally is to adopt a role of humble inquiry in order to avoid the traps of being seduced by one's initial power position.
+
+\end{multicols}
+
+\section{Helping roles}
+
+\begin{nosepenumerate}
+    \item The \textbf{expert resource} role: provide information or services.
+    \item The \textbf{doctor} role: diagnose and prescribe.
+    \item The \textbf{process consultant} role.
+\end{nosepenumerate}
+
+\noindent
+Any helping situation must begin with the helper adopting the process consultant role in order to: 1) remove the ignorance inherent in the situation; 2) lessen the status differential; 3) identify what further role may be most suitable to the problem identified.
+
+\section{Traps}
+
+\begin{multicols}{2}
+
+\subsection{Traps for the client}
+\begin{nosepenumerate}
+    \item \textbf{Initial mistrust}: will the helper be willing and able to help?
+    \item \textbf{Relief}, followed by a sense of dependency.
+    \item \textbf{Looking for attention, reassurance and/or validation instead of help}.
+    \item \textbf{Resentment and defensiveness}, especially if the helper has given premature advice.
+    \item \textbf{Stereotyping, unrealistic expectations, and transference of perceptions} based on past experiences with helpers.
+\end{nosepenumerate}
+
+\vfill
+
+\subsection{Traps for the helper}
+\begin{nosepenumerate}
+    \item \textbf{Dispensing wisdom prematurely}, which puts the client further down and presupposes the problem.
+    \item \textbf{Meeting defensiveness with more pressure}, which is more likely to destroy the relationship.
+    \item \textbf{Accepting the problem and over-reacting to the dependence}, which may limit the client's ability to participate in developing a solution.
+    \item \textbf{Giving support and reassurance} which reinforces the client's subordinate status.
+    \item \textbf{Resisting taking on the helper role}, which may signal lack of interest or aloofness.
+    \item \textbf{Stereotyping, a priori expectations and projections} based on past experiences with clients.
+\end{nosepenumerate}
+
+\end{multicols}
+
+\section{Forms of Inquiry}
+
+\begin{multicols}{2}
+
+\subsection{Pure inquiry}
+
+Pure inquiry has several purposes:
+\begin{nosepitemize}
+    \item Build up the client's status
+    \item Create a situation where the client feels safe to reveal anxiety, information and feelings
+    \item gather information about the situation
+    \item involve the client in the process of diagnosis and action planning
+\end{nosepitemize}
+
+\noindent
+Examples:
+\begin{nosepitemize}
+    \item ``Tell me more.''
+    \item ``Can you give me some examples?''
+    \item ``How can I help?''
+\end{nosepitemize}
+
+\subsection{Diagnostic inquiry}
+
+Diagnostic inquiry begins to influence the client's mental process by focusing on issues other than the ones the client chose to report. This redirection can be taken by focusing on four different lines of questioning:
+\begin{nosepenumerate}
+    \item Feelings and reactions.
+    \item Causes and motives.
+    \item Actions taken or contemplated.
+    \item Systemic questions, about the human system the client is working in. (These are particularly useful as a check for whether suggestions and advice might work.)
+\end{nosepenumerate}
+
+\noindent
+Examples:
+\begin{nosepitemize}
+    \item ``How did you feel about that?'' (Feelings)
+    \item ``Why did you do that?'' (Causes)
+    \item ``What are you going to do next?'' (Actions)
+    \item ``How will your colleagues react?'' (Systemic)
+\end{nosepitemize}
+
+\subsection{Confrontational inquiry}
+
+In confrontational inquiry, the helper interjects their own ideas about the process or content of the story. This tends to put the helper into an expert or doctor role, and should only be done when the helper senses sufficient trust and equity in the relationship to make valid communication possible.
+
+\noindent
+Examples:
+\begin{nosepitemize}
+    \item ``Did that make you angry?''
+    \item ``Could you try the following?''
+\end{nosepitemize}
+
+\subsection{Process-oriented inquiry}
+
+This kind of inquiry shifts the focus from the client's process or content to the here and now interaction occurring between client and helper. This allows the helper to assess how the client perceives th helper and how much trust has been established.
+
+\noindent
+Examples:
+\begin{nosepitemize}
+    \item ``How do you think our conversation is going so far?''
+    \item ``Are my questions helping you?''
+\end{nosepitemize}
+
+\end{multicols}
+
+\section{Helping and Teamwork}
+
+\begin{multicols}{2}
+
+\noindent
+\textbf{Teamwork} can be defined as a state of multiple reciprocal helping relationships including all the members of the group that have to work together.
+
+This happens when members know their roles, and feel that what they contribute, in the way of performance, and what they get back, in the way of formal and informal rewards, is equitable.
+
+When a team forms the leader should act as a process consultant and create conditions for members to answer these questions:
+
+\begin{nosepenumerate}
+    \item Who am I to be? What is my role in this group?
+    \item How much control/influence will I have in this group?
+    \item Will my goals/needs be met in this group?
+    \item What will be the level of intimacy in this group?
+\end{nosepenumerate}
+
+Exploring these questions requires a period of mutual inquiry amongst team members. Doing so builds trust and a helping attitude between members.
+
+\textbf{Feedback} is information that helps one reach goals by showing that the current progress is either on or off target.
+
+\begin{nosepitemize}
+    \item Giving and receiving feedback can therefore be viewed as crucial communication in a helping relationship, but the helper must be sure what the target is that the client is aiming for, and, therefore, must engage in humble inquiry before offering feedback.
+    \item Feedback is generally not useful if it is not asked for. The potential for effective feedback is higher if the leader asks team members to ask for feedback in after-action reviews.
+\end{nosepitemize}
+
+\end{multicols}
+
+\section{Principles and Tips}
+
+\begin{multicols}{2}
+
+\subsection{Principle 1: Effective help occurs when both giver and receiver are ready}
+\begin{nosepenumerate}
+    \item Check out your intentions and emotions before giving or receiving help.
+    \item Get acquainted with your own desires to help or be helped.
+    \item Don't be offended when your efforts to help are not well received.
+\end{nosepenumerate}
+
+\subsection{Principle 2: Effective help occurs when the helping relationship is perceived to be equitable}
+\begin{nosepenumerate}
+    \item Remember that the person requesting your help may feel uncomfortable, so make sure to ask what the client really wants and how you can best help.
+    \item If you are the client, look for opportunities to give the helper feedback on what is and is not helpful.
+\end{nosepenumerate}
+
+\subsection{Principle 3: Effective help occurs when the helper is in the proper helping role}
+\begin{nosepenumerate}
+    \item Never assume that you know what specific form of help is needed without checking first.
+    \item In an ongoing helping relationship, check periodically whether the role you are playing is still helpful.
+    \item If you as the client, don't be afraid to give feedback to the helper when you no longer feel helped.
+\end{nosepenumerate}
+
+\subsection{Principle 4: Everything you say or do is an intervention that determines the future of the relationship}
+\begin{nosepenumerate}
+    \item In your role as helper, evaluate everything you say or do by its potential impact on the relationship.
+    \item If you are the client, you should also be aware that everything you do sends a message.
+    \item When you are giving feedback, try to be descriptive and minimize judgment.
+    \item Minimize inappropriate encouragement.
+    \item Minimize inappropriate corrections.
+\end{nosepenumerate}
+
+\subsection{Principle 5: Effective helping starts with pure inquiry}
+\begin{nosepenumerate}
+    \item You must always start with some version of pure inquiry.
+    \item No matter how familiar a request for help sounds, try to perceive it as a brand new request that you have never heard before.
+\end{nosepenumerate}
+
+\subsection{Principle 6: It is the client who owns the problem}
+\begin{nosepenumerate}
+    \item Be careful not to get too interested in the content of the client’s story until you have built the relationship.
+    \item Keep reminding yourself that no matter how similar a problem is to one that you feel you know all about, it is that other person’s problem, not yours.
+\end{nosepenumerate}
+
+\subsection{Principle 7: You never have all the answers}
+\begin{nosepenumerate}
+    \item Share your helping problem.
+\end{nosepenumerate}
+
+\end{multicols}
+
+\end{document}
